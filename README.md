@@ -2,6 +2,7 @@
 
 - [Item Stack Increase](#item-stack-increase)
 - [Increased Inventory Space](#increased-inventory-space)
+- [HUD](#hud)
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
@@ -170,3 +171,9 @@
 | Tool            | Cruible                         |       1       |     5     |
 
 ## Increased Inventory Space
+- https://7daystodiemods.com/50-slot-backpack/
+- Increases Backpack/Inventory slots from 32 to 50
+
+## HUD
+- https://7daystodiemods.com/smx-hud-mod-for-a18/
+- Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
