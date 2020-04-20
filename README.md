@@ -1,7 +1,8 @@
 ## pegcom7dtd.git
 ### Pegasus Command 7DTD Mod
 
-### **Item Stack Increase**
+<details>
+  <summary>Item Stack Increase</summary>
 
 | Item Type       | Item                            | Default Stack | New Stack |
 |-----------------|---------------------------------|:-------------:|:---------:|
@@ -165,3 +166,5 @@
 | Tool            | Cooking Grill                   |      250      |     20    |
 | Tool            | Cooking Pot                     |      250      |     20    |
 | Tool            | Cruible                         |       1       |     5     |
+
+</details>
