@@ -1,8 +1,10 @@
-## pegcom7dtd.git
-### Pegasus Command 7DTD Mod
+# Pegasus Command 7DTD Mods
 
-<details>
-  <summary>Item Stack Increase</summary>
+Table of Contents:
+- [Item Stack Increase](#item-stack-increase)
+- [Increased Inventory Space](#increased-inventory-space)
+
+## Item Stack Increase
 
 | Item Type       | Item                            | Default Stack | New Stack |
 |-----------------|---------------------------------|:-------------:|:---------:|
@@ -167,4 +169,4 @@
 | Tool            | Cooking Pot                     |      250      |     20    |
 | Tool            | Cruible                         |       1       |     5     |
 
-</details>
+## Increased Inventory Space
