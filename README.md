@@ -1,6 +1,5 @@
 # Pegasus Command 7DTD Mods
 
-Table of Contents:
 - [Item Stack Increase](#item-stack-increase)
 - [Increased Inventory Space](#increased-inventory-space)
 
