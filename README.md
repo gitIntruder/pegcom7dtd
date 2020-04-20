@@ -5,6 +5,7 @@ Table of Contents:
 - [Increased Inventory Space](#increased-inventory-space)
 
 ## Item Stack Increase
+- The stack size has been updated for the following Items.
 
 | Item Type       | Item                            | Default Stack | New Stack |
 |-----------------|---------------------------------|:-------------:|:---------:|
