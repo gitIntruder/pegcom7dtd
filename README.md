@@ -172,13 +172,13 @@
 | Tool            | Cruible                         |       1       |     5     |
 
 ## Increased Inventory Space
-- https://7daystodiemods.com/bigger-backpack-mod-60-96-slot-with-without-food-water-bar-on-hud/
+- <https://7daystodiemods.com/bigger-backpack-mod-60-96-slot-with-without-food-water-bar-on-hud/>
 - Increases Backpack/Inventory slots from 32 to 60
 
 ## HUD
-- https://7daystodiemods.com/smx-hud-mod-for-a18/
+- <https://7daystodiemods.com/smx-hud-mod-for-a18/>
 - Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
 
 ## Backpack Buttons
-- https://7daystodiemods.com/backpack-buttons/
+- <https://7daystodiemods.com/backpack-buttons/>
 - Enables Stash All, Stack All and Stash Smart buttons in your backpack
