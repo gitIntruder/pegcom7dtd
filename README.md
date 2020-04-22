@@ -3,6 +3,7 @@
 - [Item Stack Increase](#item-stack-increase)
 - [Increased Inventory Space](#increased-inventory-space)
 - [HUD](#hud)
+- [Backpack Buttons](#backpack-buttons)
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
