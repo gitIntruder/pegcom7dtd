@@ -162,14 +162,31 @@
 
   <!--Resource Bundles-->
 	<set xpath="/items/item[@name='resourceCoalBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceCoalBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourceGunPowderBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceGunPowderBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourceLeadBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceLeadBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourceOilShaleBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceOilShaleBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourceScrapIronBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceScrapIronBundle']/property[@name='Create_item_count']/@value">20000</set>
+
 	<set xpath="/items/item[@name='resourceWoodBundle']/property[@name='Stacknumber']/@value">10</set>
+	<set xpath="/items/item[@name='resourceWoodBundle']/property[@name='Create_item_count']/@value">20000</set>
 
   <!--Thrown Ammo-->
 	<set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">1000</set>
