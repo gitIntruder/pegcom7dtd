@@ -149,6 +149,9 @@
 	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceCoalBundle']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceCrushedSand']/property[@name='Stacknumber']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceOilShale']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">5000</set>
 	<set xpath="/items/item[@name='resourcePotassiumNitratePowde']/property[@name='Stacknumber']/@value">10000</set>

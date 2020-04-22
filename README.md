@@ -149,6 +149,9 @@
 | Resource        | Clay                            |      6000     |   10000   |
 | Resource        | Coal                            |      6000     |   10000   |
 | Resource        | Crushed Sand                    |      6000     |   10000   |
+| Resource        | Concrete Mix                    |      1000     |   10000   |
+| Resource        | Cement                          |      1000     |   10000   |
+| Resource        | Cobblestone Rocks               |      1000     |   10000   |
 | Resource        | Oil Shale                       |      6000     |   10000   |
 | Resource        | Paint                           |      1000     |    5000   |
 | Resource        | Potassium Nitrate Powder        |      6000     |   10000   |
