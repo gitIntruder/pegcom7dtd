@@ -117,8 +117,6 @@
 	<set xpath="/items/item[@name='foodPumpkinBread']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodPumpkinCheesecake']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodPumpkinPie']/property[@name='Stacknumber']/@value">30</set>
-	<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">30</set>
-	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">50</set>
 	<set xpath="/items/item[@name='foodShamChowder']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodSteakAndPotato']/property[@name='Stacknumber']/@value">30</set>
