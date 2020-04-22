@@ -140,10 +140,6 @@
 	<set xpath="/items/item[@name='medicalPlasterCast']/property[@name='Stacknumber']/@value">10</set>
 	<set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']/@value">10</set>
 
-  <!--Other-->
-	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">100000</set>
-	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">100000</set>
-
   <!--Resources-->
   <set xpath="/items/item[@name='resourceBrokenGlass']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">10000</set>

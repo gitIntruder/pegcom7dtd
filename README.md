@@ -143,8 +143,6 @@
 | Medical         | First Aid Kit                   |       5       |     10    |
 | Medical         | Plaster Cast                    |       5       |     10    |
 | Medical         | Splint                          |       5       |     10    |
-| Other           | Duke Coin                       |     20000     |   100000  |
-| Other           | Old Cash                        |     10000     |   100000  |
 | Resource        | Broken Glass                    |      6000     |   10000   |
 | Resource        | Clay                            |      6000     |   10000   |
 | Resource        | Coal                            |      6000     |   10000   |
