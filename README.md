@@ -7,6 +7,10 @@
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
+- Version: 1.0
+- Author: Intruder
+- Assets
+  - /Config/items.xml
 
 | Item Type       | Item                            | Default Stack | New Stack |
 |-----------------|---------------------------------|:-------------:|:---------:|
@@ -174,11 +178,35 @@
 ## Increased Inventory Space
 - <https://7daystodiemods.com/bigger-backpack-mod-60-96-slot-with-without-food-water-bar-on-hud/>
 - Increases Backpack/Inventory slots from 32 to 60
+- Version: 1.0.0
+- Author: KhaineGB
+- Assets
+  - /Config/XUi/controls.xml
+  - /Config/XUi/styles.xml
+  - /Config/XUi/windows.xml
+  - /Config/buffs.xml
+  - /Config/entityclasses.xml
+  - /Config/loot.xml
+  - /Config/progression.xml
 
 ## HUD
 - <https://7daystodiemods.com/smx-hud-mod-for-a18/>
 - Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
+- Version: 18.3.r1
+- Author: Sirillion
+- Assets
+  - /Config/XUi/controls.xml
+  - /Config/XUi/styles.xml
+  - /Config/XUi/windows.xml
+  - /Config/XUi/xui.xml
+  - /UIAtlases/ItemIconAtlas/smx_hud...
+  - /UIAtlases/uiAtlas/smx_hud...
 
 ## Backpack Buttons
 - <https://7daystodiemods.com/backpack-buttons/>
 - Enables Stash All, Stack All and Stash Smart buttons in your backpack
+- Version: 1.0
+- Author: KhaineGB
+- Assets
+  - /Config/XUi/windows.xml
+  - /UIAtlases/UIAtlas/manux_ui_game_symbol...
