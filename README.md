@@ -181,7 +181,7 @@
 
 ## Increased Inventory Space
 - <https://7daystodiemods.com/bigger-backpack-mod-60-96-slot-with-without-food-water-bar-on-hud/>
-- ![Inventory Space Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/11/7dtd-a18-bigger-backpack-mod-with-or-without-food-and-water-bar-on-hud.jpg)
+![Inventory Space Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/11/7dtd-a18-bigger-backpack-mod-with-or-without-food-and-water-bar-on-hud.jpg)
 - Increases Backpack/Inventory slots from 32 to 60
 - Version: 1.0.0
 - Author: KhaineGB
@@ -197,6 +197,7 @@
 
 ## HUD
 - <https://7daystodiemods.com/smx-hud-mod-for-a18/>
+![SMX HUD Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/11/7-days-to-die-smx-hud-for-a18-1400x800.jpg)
 - Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
 - Version: 18.3.r1
 - Author: Sirillion
@@ -213,6 +214,7 @@
 
 ## Backpack Buttons
 - <https://7daystodiemods.com/backpack-buttons/>
+![Backpack Buttons Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/11/7-days-to-die-backpack-buttons.jpg)
 - Enables Stash All, Stack All and Stash Smart buttons in your backpack
 - Version: 1.0
 - Author: KhaineGB
@@ -223,6 +225,7 @@
 
 ## Firewood
 - <https://7daystodiemods.com/fat-soaked-log-bundle/>
+![Firewood Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/12/7-days-to-die-fat-soaked-log-bundle.jpg)
 - Adds new Firewood item that burns 20x longer than regular wood
 - Version: 1.1
 - Author: War3zuk/Tallon
@@ -239,6 +242,7 @@
 
 ## UH-60 Helicopter
 - <https://7daystodiemods.com/uh-60-helicopter/>
+![UH-60 Helicopter Screenshot](https://7daystodiemods.com/wp-content/uploads/2020/02/7-days-to-die-uh-60-helicopter.jpg)
 - Adds UH-60 Helicopter to the game, including a recipe and it's ingredients to craft it
 - Version: 1.0
 - Author: bdubyah
