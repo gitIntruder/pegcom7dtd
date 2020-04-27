@@ -214,7 +214,7 @@
 
 ## Backpack Buttons
 - <https://7daystodiemods.com/backpack-buttons/>
-![Backpack Buttons Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/11/7-days-to-die-backpack-buttons.jpg)
+![Backpack Buttons Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Backpack%20Buttons.png)
 - Enables Stash All, Stack All and Stash Smart buttons in your backpack
 - Version: 1.0
 - Author: KhaineGB
@@ -225,7 +225,7 @@
 
 ## Firewood
 - <https://7daystodiemods.com/fat-soaked-log-bundle/>
-![Firewood Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/12/7-days-to-die-fat-soaked-log-bundle.jpg)
+![Firewood Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Firewood.png)
 - Adds new Firewood item that burns 20x longer than regular wood
 - Version: 1.1
 - Author: War3zuk/Tallon
