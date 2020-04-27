@@ -215,7 +215,7 @@
 ## Backpack Buttons
 - <https://7daystodiemods.com/backpack-buttons/>
 ![Backpack Buttons Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Backpack%20Buttons.png?raw=true)
-- Enables Stash All, Stack All and Stash Smart buttons in your backpack
+- Enables Stash All, Stack All and Stash Smart buttons in your backpack. The buttons are only accessable when you activate a lootable object such as a chest.
 - Version: 1.0
 - Author: KhaineGB
 - Client Download Required: Yes
