@@ -197,7 +197,7 @@
 
 ## HUD
 - <https://7daystodiemods.com/smx-hud-mod-for-a18/>
-![SMX HUD Screenshot](./Screenshots/SMX HUD)
+![SMX HUD Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/SMX%20HUD.png)
 - Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
 - Version: 18.3.r1
 - Author: Sirillion
