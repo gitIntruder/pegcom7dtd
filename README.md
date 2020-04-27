@@ -238,7 +238,7 @@
   - /Config/items.xml
     - Renamed item and added Localization reference
   - /Config/recipes.xml
-    - Reduced craft count from 1000 to 50
+    - Reduced craft count from 1000 to 10
 
 ## UH-60 Helicopter
 - <https://7daystodiemods.com/uh-60-helicopter/>
