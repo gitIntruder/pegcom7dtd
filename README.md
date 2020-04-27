@@ -181,6 +181,7 @@
 
 ## Increased Inventory Space
 - <https://7daystodiemods.com/bigger-backpack-mod-60-96-slot-with-without-food-water-bar-on-hud/>
+- ![Inventory Space Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/11/7dtd-a18-bigger-backpack-mod-with-or-without-food-and-water-bar-on-hud.jpg)
 - Increases Backpack/Inventory slots from 32 to 60
 - Version: 1.0.0
 - Author: KhaineGB
