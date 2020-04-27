@@ -5,6 +5,7 @@
 - [HUD](#hud)
 - [Backpack Buttons](#backpack-buttons)
 - [Firewood](#firewood)
+- [UH-60 Helicopter](#uh-60-helicopter)
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
@@ -234,3 +235,22 @@
     - Renamed item and added Localization reference
   - /Config/recipes.xml
     - Reduced craft count from 1000 to 50
+
+## UH-60 Helicopter
+- <https://7daystodiemods.com/uh-60-helicopter/>
+- Adds UH-60 Helicopter to the game, including a recipe and it's ingredients to craft it
+- Version: 1.0
+- Author: bdubyah
+- Client Download Required: Yes
+- Assets
+  - /Resources/uh60...
+  - /UIAtlases/ItemIconAtlas/uh60...
+  - /UIAtlases/UIAtlas/UH60icon.png
+  - /Config/entityclasses.xml
+  - /Config/Localization.txt
+  - /Config/items.xml
+  - /Config/loot.xml
+  - /Config/progression.xml
+  - /Config/recipes.xml
+  - /Config/sounds.xml
+  - /Config/vehicles.xml
