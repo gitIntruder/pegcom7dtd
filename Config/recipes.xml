@@ -9,7 +9,7 @@
     <!--War3zuk Fat Soaked Log Bundle - END-->
 
     <!--UH-60 Helicopter - BEGIN-->
-    <recipe name="vehicleUH60chassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+    <recipe name="vehicleUH60chassis" count="1" craft_area="workbench" craft_time="3600" tags="learnable,workbenchCrafting">
       <ingredient name="resourceSpring" count="25"/>
       <ingredient name="resourceForgedSteel" count="350"/>
       <ingredient name="resourceMechanicalParts" count="50"/>
@@ -17,7 +17,7 @@
       <ingredient name="resourceMetalPipe" count="50"/>
     </recipe>
 
-    <recipe name="vehicleUH60accessories" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+    <recipe name="vehicleUH60accessories" count="1" craft_area="workbench" craft_time="3600" tags="learnable,workbenchCrafting">
       <ingredient name="resourceForgedSteel" count="50"/>
       <ingredient name="resourceMechanicalParts" count="10"/>
       <ingredient name="resourceLeather" count="50"/>
@@ -25,7 +25,7 @@
       <ingredient name="resourceHeadlight" count="2"/>
     </recipe>
 
-    <recipe name="vehicleUH60placeable" count="1" craft_area="workbench" craft_time="60" tags="workbenchCrafting">
+    <recipe name="vehicleUH60placeable" count="1" craft_area="workbench" craft_time="7200" tags="workbenchCrafting">
       <ingredient name="vehicleWheels" count="3"/>
       <ingredient name="vehicleUH60accessories" count="1"/>
       <ingredient name="vehicleUH60chassis" count="1"/>
