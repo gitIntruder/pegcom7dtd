@@ -257,5 +257,6 @@
   - /Config/loot.xml
   - /Config/progression.xml
   - /Config/recipes.xml
+    - Increased chassis, accessories and placeable crafting time
   - /Config/sounds.xml
   - /Config/vehicles.xml
