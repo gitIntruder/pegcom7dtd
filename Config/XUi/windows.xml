@@ -2,11 +2,11 @@
 	<!--SMX HUD - BEGIN-->
 	<!--	// SMX // HUD Logo -->
 
-	<append xpath="/windows">
+	<!-- <append xpath="/windows">
 		<window name="SMXhudLogo" depth="99" pos="0,2" size="250,40">
 			<sprite name="SMXhudLogo" depth="1" pos="-350,0" size="250,40" atlas="uiAtlas" sprite="smx_hud_general_logo" />
 		</window>
-	</append>
+	</append> -->
 
 
 	<!--	// SMX // Compass -->

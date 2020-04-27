@@ -39,9 +39,9 @@
 
 <!--	// SMX // HUD Logo -->
 
-		<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+		<!-- <append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
 			<window name="SMXhudLogo" anchor="RightTop" />
-		</append>
+		</append> -->
 
 
 <!--	// SMX // Compass -->

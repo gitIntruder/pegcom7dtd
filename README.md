@@ -9,6 +9,7 @@
 - The stack size has been updated for the following Items.
 - Version: 1.0
 - Author: Intruder
+- Client Download Required: No
 - Assets
   - /Config/items.xml
 
@@ -181,6 +182,7 @@
 - Increases Backpack/Inventory slots from 32 to 60
 - Version: 1.0.0
 - Author: KhaineGB
+- Client Download Required: No
 - Assets
   - /Config/XUi/controls.xml
   - /Config/XUi/styles.xml
@@ -195,6 +197,7 @@
 - Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
 - Version: 18.3.r1
 - Author: Sirillion
+- Client Download Required: Yes
 - Assets
   - /Config/XUi/controls.xml
   - /Config/XUi/styles.xml
@@ -208,6 +211,7 @@
 - Enables Stash All, Stack All and Stash Smart buttons in your backpack
 - Version: 1.0
 - Author: KhaineGB
+- Client Download Required: Yes
 - Assets
   - /Config/XUi/windows.xml
   - /UIAtlases/UIAtlas/manux_ui_game_symbol...
