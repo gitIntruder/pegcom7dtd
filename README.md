@@ -4,6 +4,7 @@
 - [Increased Inventory Space](#increased-inventory-space)
 - [HUD](#hud)
 - [Backpack Buttons](#backpack-buttons)
+- [Fire Logs](#fire-logs)
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
@@ -202,7 +203,9 @@
   - /Config/XUi/controls.xml
   - /Config/XUi/styles.xml
   - /Config/XUi/windows.xml
+    - 27Apr20: Update: Removed SMX Logo
   - /Config/XUi/xui.xml
+    - 27Apr20: Update: Removed SMX Logo
   - /UIAtlases/ItemIconAtlas/smx_hud...
   - /UIAtlases/uiAtlas/smx_hud...
 
@@ -215,3 +218,19 @@
 - Assets
   - /Config/XUi/windows.xml
   - /UIAtlases/UIAtlas/manux_ui_game_symbol...
+
+## Firewood
+- <https://7daystodiemods.com/fat-soaked-log-bundle/>
+- Adds new Firewood item that burns 20x longer than regular wood
+- Version: 1.1
+- Author: War3zuk/Tallon
+- Client Download Required: Yes
+- Assets
+  - /UIAtlases/ItemIconAtlas/firewoodItemIcon.png
+    - Renamed icon to stay consistent with vanilla naming convention
+  - /Config/Localization.txt
+    - Added new Localization entry for item and itemDesc, didn't exist as part of War3zuk's original mod
+  - /Config/items.xml
+    - Renamed item and added Localization reference
+  - /Config/recipes.xml
+    - Reduced craft count from 1000 to 50
