@@ -4,7 +4,7 @@
 - [Increased Inventory Space](#increased-inventory-space)
 - [HUD](#hud)
 - [Backpack Buttons](#backpack-buttons)
-- [Fire Logs](#fire-logs)
+- [Firewood](#firewood)
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
