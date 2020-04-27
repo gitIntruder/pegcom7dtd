@@ -197,7 +197,7 @@
 
 ## HUD
 - <https://7daystodiemods.com/smx-hud-mod-for-a18/>
-![SMX HUD Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/SMX%20HUD.png)
+![SMX HUD Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/SMX%20HUD.png?raw=true)
 - Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
 - Version: 18.3.r1
 - Author: Sirillion
@@ -214,7 +214,7 @@
 
 ## Backpack Buttons
 - <https://7daystodiemods.com/backpack-buttons/>
-![Backpack Buttons Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Backpack%20Buttons.png)
+![Backpack Buttons Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Backpack%20Buttons.png?raw=true)
 - Enables Stash All, Stack All and Stash Smart buttons in your backpack
 - Version: 1.0
 - Author: KhaineGB
@@ -225,7 +225,7 @@
 
 ## Firewood
 - <https://7daystodiemods.com/fat-soaked-log-bundle/>
-![Firewood Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Firewood.png)
+![Firewood Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Firewood.png?raw=true)
 - Adds new Firewood item that burns 20x longer than regular wood
 - Version: 1.1
 - Author: War3zuk/Tallon
