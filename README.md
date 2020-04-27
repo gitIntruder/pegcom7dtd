@@ -197,7 +197,7 @@
 
 ## HUD
 - <https://7daystodiemods.com/smx-hud-mod-for-a18/>
-![SMX HUD Screenshot](https://7daystodiemods.com/wp-content/uploads/2019/11/7-days-to-die-smx-hud-for-a18-1400x800.jpg)
+![SMX HUD Screenshot](https://drive.google.com/file/d/1ECCXnJTTBnlhG2atiy-Vbi2rTbLgorfO/view?usp=sharing)
 - Updates HUD to make it more horror like and gritty style all while trying to stay as informative as possible while not being intrusive on your gameplay
 - Version: 18.3.r1
 - Author: Sirillion
