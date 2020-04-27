@@ -6,6 +6,7 @@
 - [Backpack Buttons](#backpack-buttons)
 - [Firewood](#firewood)
 - [UH-60 Helicopter](#uh-60-helicopter)
+- [Tool Sounds](#tool-sounds)
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
@@ -260,3 +261,11 @@
     - Increased chassis, accessories and placeable crafting time
   - /Config/sounds.xml
   - /Config/vehicles.xml
+
+## Tool Sounds
+- Adjusted the sounds of the Auger and Chainsaw to reduce the volume
+- Author: Intruder
+- Assets
+  - /Resources/toolSounds.unity3d
+  - /Config/items.xml
+  - /Config/sounds.xml

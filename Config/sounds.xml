@@ -1,4 +1,9 @@
 <configs>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Idle']/AudioClip[@ClipName='Sounds/Weapons/Motorized/Auger/auger_idle']/@ClipName">#@modfolder:Resources/toolSounds.unity3d?auger_idle</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/AudioClip[@ClipName='Sounds/Weapons/Motorized/Auger/Auger_Fire_Start']/@ClipName">#@modfolder:Resources/toolSounds.unity3d?auger_fire_start</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/AudioClip[@ClipName='Sounds/Weapons/Motorized/Auger/auger_fire_lp']/@ClipName">#@modfolder:Resources/toolSounds.unity3d?auger_fire_lp</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/AudioClip[@ClipName='Sounds/Weapons/Motorized/Auger/auger_fire_end']/@ClipName">#@modfolder:Resources/toolSounds.unity3d?auger_fire_end</set>
+
   <append xpath="/Sounds">
     <!--UH-60 Helicopter - BEGIN-->
     <SoundDataNode name="UH60_start">
