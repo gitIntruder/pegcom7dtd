@@ -178,7 +178,7 @@
 | Tool            | Bellows                         |       1       |     5     |
 | Tool            | Cooking Grill                   |      250      |     20    |
 | Tool            | Cooking Pot                     |      250      |     20    |
-| Tool            | Cruible                         |       1       |     5     |
+| Tool            | Crucible                         |       1       |     5     |
 
 ## Increased Inventory Space
 - <https://7daystodiemods.com/bigger-backpack-mod-60-96-slot-with-without-food-water-bar-on-hud/>
