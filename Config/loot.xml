@@ -16,4 +16,11 @@
     <item group="UH60group" loot_prob_template="probTemplate0.35"/>
   </append>
   <!--UH-60 Helicopter - END-->
+
+  <!--Intruders Vehicles - BEGIN-->
+	<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
+		<lootcontainer id="222" count="0" size="10,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+		</lootcontainer>
+  <!--Intruders Vehicles - END-->
+	</insertAfter>
 </configs>

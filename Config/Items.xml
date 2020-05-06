@@ -50,75 +50,228 @@
 			</effect_group>
 		</item>
 		<!--UH-60 Helicopter - END-->
-	</append>
 
-	<!--Tool Sounds-->
-	<set xpath="/items/item/property[@name='meleeToolAuger']/property[@name='SoundIdle']/@value">#@modfolder:Resources/toolSounds.unity3d?auger_idle</set>
-	<set xpath="/items/item/property[@name='meleeToolAuger']/property[@name='Sound_start']/@value">#@modfolder:Resources/toolSounds.unity3d?auger_fire_start</set>
-	<set xpath="/items/item/property[@name='meleeToolAuger']/property[@name='Sound_repeat']/@value">#@modfolder:Resources/toolSounds.unity3d?auger_fire_lp</set>
-	<set xpath="/items/item/property[@name='meleeToolAuger']/property[@name='Sound_end']/@value">#@modfolder:Resources/toolSounds.unity3d?auger_fire_end</set>
-	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='SoundIdle']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_idle</set>
-	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='Sound_start']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_fire_start</set>
-	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='Sound_repeat']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_fire_lp</set>
-	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='Sound_end']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_fire_end</set>
+		<!--Intruder's Vehicles - BEGIN-->
+		<!-- A-TEAM VEHICLE -->
+		<item name="vehicleATeamVanPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="aTeamVanItemIcon"/>
+			<property name="DescriptionKey" value="vehicleATeamVanPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/aTeamVan.unity3d?aTeamVanPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleATeamVan"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="100000"/>
+			</effect_group>
+		</item>
+
+		<!-- MOWER VEHICLE -->
+		<item name="vehicleMowerVanChassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="mowerChassisItemIcon"/>
+			<property name="DescriptionKey" value="vehicleMowerChassisDesc"/>
+			<property name="EconomicValue" value="50"/>
+		</item>
+
+		<item name="vehicleMowerAccessories">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="mowerAccessoriesItemIcon"/>
+			<property name="DescriptionKey" value="vehicleMowerAccessoriesDesc"/>
+			<property name="EconomicValue" value="50"/>
+		</item>
+
+		<item name="vehicleMowerPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="mowerItemIcon"/>
+			<property name="DescriptionKey" value="vehicleMowerPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/mower.unity3d?mowerPrefab.prefab"/>
+			<property name="EconomicValue" value="1000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleMower"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
+			</effect_group>
+		</item>
+
+		<!--KOLUN VEHICLE-->
+		<item name="vehicleKolunPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="kolunItemIcon"/>
+			<property name="DescriptionKey" value="vehicleKolunPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/kolun.unity3d?kolunPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleKolun"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="100000"/>
+			</effect_group>
+		</item>
+
+		<!--AXEL VEHICLE-->
+		<item name="vehicleAxelAxle">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="axelAxelItemIcon"/>
+			<property name="DescriptionKey" value="vehicleAxelAxleDesc"/>
+			<property name="EconomicValue" value="500"/>
+		</item>
+		<item name="vehicleAxelWheel">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="axelWheelItemIcon"/>
+			<property name="DescriptionKey" value="vehicleAxelWheelDesc"/>
+			<property name="EconomicValue" value="500"/>
+		</item>
+		<item name="vehicleAxelPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="axelItemIcon"/>
+			<property name="DescriptionKey" value="vehicleAxelPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/axel.unity3d?axelPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleAxel"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="15000"/>
+			</effect_group>
+		</item>
+
+		<!--ALPHA VEHICLE-->
+		<item name="vehicleAlphaChassis">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="alphaChassisItemIcon"/>
+			<property name="DescriptionKey" value="vehicleAlphaChassisDesc"/>
+			<property name="EconomicValue" value="500"/>
+		</item>
+		<item name="vehicleAlphaWheel">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="CustomIcon" value="alphaWheelItemIcon"/>
+			<property name="DescriptionKey" value="vehicleAlphaWheelDesc"/>
+			<property name="EconomicValue" value="500"/>
+		</item>
+		<item name="vehicleAlphaPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="alphaItemIcon"/>
+			<property name="DescriptionKey" value="vehicleAlphaPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/alpha.unity3d?alphaPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleAlpha"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="15000"/>
+			</effect_group>
+		</item>
+
+		<!--TUMBLER VEHICLE-->
+		<item name="vehicleTumblerPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="tumblerItemIcon"/>
+			<property name="DescriptionKey" value="vehicleTumblerPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/tumbler.unity3d?tumblerPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleTumbler"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="15000"/>
+			</effect_group>
+		</item>
+
+		<!--HEARSE VEHICLE-->
+		<item name="vehicleHearsePlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="hearseItemIcon"/>
+			<property name="DescriptionKey" value="vehicleHearsePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/hearse.unity3d?hearsePrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleHearse"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="100000"/>
+			</effect_group>
+		</item>
+
+		<!--IMPERIAL VEHICLE-->
+		<item name="vehicleImperialPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="imperialItemIcon"/>
+			<property name="DescriptionKey" value="vehicleImperialPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/imperial.unity3d?imperialPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleImperial"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="1000"/>
+			</effect_group>
+		</item>
+
+		<!--HALF TON VEHICLE-->
+		<item name="vehicleHalfTonPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="halfTonItemIcon"/>
+			<property name="DescriptionKey" value="vehicleHalfTonPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/halfton.unity3d?halftonPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleHalfTon"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="1000"/>
+			</effect_group>
+		</item>
+
+		<!--ROADSTER VEHICLE-->
+		<item name="vehicleRoadsterPlaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="roadsterItemIcon"/>
+			<property name="DescriptionKey" value="vehicleRoadsterPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/roadster.unity3d?roadsterPrefab.prefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleRoadster"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="DegradationMax" operation="base_set" value="1000"/>
+			</effect_group>
+		</item>
+		<!--Intruder's Vehicles - END-->
+	</append>
 
 	<!--Ammo-->
 	<set xpath="/items/item[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='ammo44MagnumBulletAP']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='ammo44MagnumBulletHP']/property[@name='Stacknumber']/@value">500</set>
 	<set xpath="/items/item[@name='ammo762mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='ammo762mmBulletAP']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='ammo762mmBulletHP']/property[@name='Stacknumber']/@value">500</set>
 	<set xpath="/items/item[@name='ammo9mmBulletBall']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='ammo9mmBulletAP']/property[@name='Stacknumber']/@value">500</set>
-	<set xpath="/items/item[@name='ammo9mmBulletHP']/property[@name='Stacknumber']/@value">500</set>
 	<set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='Stacknumber']/@value">500</set>
 	<set xpath="/items/item[@name='ammoArrowExploding']/property[@name='Stacknumber']/@value">300</set>
-	<set xpath="/items/item[@name='ammoCrossbowBoltExploding']/property[@name='Stacknumber']/@value">300</set>
-	<set xpath="/items/item[@name='ammoArrowFlaming']/property[@name='Stacknumber']/@value">300</set>
-	<set xpath="/items/item[@name='ammoCrossbowBoltFlaming']/property[@name='Stacknumber']/@value">300</set>
-	<set xpath="/items/item[@name='ammoArrowIron']/property[@name='Stacknumber']/@value">300</set>
 	<set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">300</set>
 	<set xpath="/items/item[@name='ammoJunkTurret']/property[@name='Stacknumber']/@value">10000</set>
-	<set xpath="/items/item[@name='ammoRocketFrag']/property[@name='Stacknumber']/@value">40</set>
 	<set xpath="/items/item[@name='ammoRocketHE']/property[@name='Stacknumber']/@value">40</set>
 	<set xpath="/items/item[@name='ammoShotgunBreachingSlug']/property[@name='Stacknumber']/@value">300</set>
 	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">300</set>
 	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">300</set>
-	<set xpath="/items/item[@name='ammoArrowSteelAP']/property[@name='Stacknumber']/@value">300</set>
-	<set xpath="/items/item[@name='ammoCrossbowBoltSteelAP']/property[@name='Stacknumber']/@value">300</set>
 	<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">300</set>
 	<set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">300</set>
 
 	<!--Ammo Bundles-->
-	<set xpath="/items/item[@name='ammoBundle762mmBulletBall']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundle44MagnumBulletBall']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundle44MagnumBulletHP']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundle762mmBulletAP']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundle762mmBulletBall']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundle762mmBulletHP']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundle9mmBulletAP']/property[@name='Stacknumber']/@value">10</set>
 	<set xpath="/items/item[@name='ammoBundle9mmBulletBall']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundle9mmBulletHP']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleBlunderbuss']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleArrowExploding']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleCrossbowBoltExploding']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleArrowFlaming']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleCrossbowBoltFlaming']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoGasCanBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleArrowIron']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleCrossbowBoltIron']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleShotgunBreachingSlug']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleShotgunShell']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleShotgunSlug']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleArrowSteelAP']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleCrossbowBoltSteelAP']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleArrowStone']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='ammoBundleCrossbowBoltStone']/property[@name='Stacknumber']/@value">10</set>
 
 	<!--Drinks-->
 	<set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">30</set>
-	<set xpath="/items/item[@name='drinkJarBlackStrapCoffee']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">300</set>
 	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">30</set>
@@ -129,7 +282,6 @@
 	<set xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">30</set>
-	<set xpath="/items/item[@name='drinkCanMegaCrush']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='drinkJarPureMineralWater']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">30</set>
@@ -141,7 +293,6 @@
 	<set xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='Stacknumber']/@value">50</set>
 	<set xpath="/items/item[@name='drugPainkillers']/property[@name='Stacknumber']/@value">50</set>
 	<set xpath="/items/item[@name='drugRecog']/property[@name='Stacknumber']/@value">50</set>
-	<set xpath="/items/item[@name='drugSteroids']/property[@name='Stacknumber']/@value">50</set>
 	<set xpath="/items/item[@name='drugVitamins']/property[@name='Stacknumber']/@value">50</set>
 
 	<!--Food-->
@@ -151,22 +302,7 @@
 	<set xpath="/items/item[@name='foodEggBoiled']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodBoiledMeat']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodCanBeef']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanCatfood']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanChicken']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanChili']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanDogfood']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanLamb']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanMiso']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanPasta']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanPears']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanPeas']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanSalmon']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanSham']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanSoup']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanStock']/property[@name='Stacknumber']/@value">15</set>
-	<set xpath="/items/item[@name='foodCanTuna']/property[@name='Stacknumber']/@value">15</set>
 	<set xpath="/items/item[@name='foodCharredMeat']/property[@name='Stacknumber']/@value">30</set>
-	<set xpath="/items/item[@name='foodChiliDog']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodCornBread']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodCornOnTheCob']/property[@name='Stacknumber']/@value">30</set>
@@ -180,7 +316,6 @@
 	<set xpath="/items/item[@name='foodPumpkinBread']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodPumpkinCheesecake']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodPumpkinPie']/property[@name='Stacknumber']/@value">30</set>
-	<set xpath="/items/item[@name='foodShamChowder']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodSteakAndPotato']/property[@name='Stacknumber']/@value">30</set>
 	<set xpath="/items/item[@name='foodVegetableStew']/property[@name='Stacknumber']/@value">30</set>
@@ -200,20 +335,19 @@
 	<set xpath="/items/item[@name='medicalBloodDrawKit']/property[@name='Stacknumber']/@value">20</set>
 	<set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">10</set>
 	<set xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='medicalPlasterCast']/property[@name='Stacknumber']/@value">10</set>
 	<set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']/@value">10</set>
 
 	<!--Resources-->
 	<set xpath="/items/item[@name='resourceBrokenGlass']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">10000</set>
-	<set xpath="/items/item[@name='resourceCoalBundle']/property[@name='Stacknumber']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceCrushedSand']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceOilShale']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">5000</set>
-	<set xpath="/items/item[@name='resourcePotassiumNitratePowde']/property[@name='Stacknumber']/@value">10000</set>
+	<set xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='Stacknumber']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceScrapIron']/property[@name='Stacknumber']/@value">10000</set>
@@ -223,32 +357,17 @@
 	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='Stacknumber']/@value">10000</set>
 
 	<!--Resource Bundles-->
-	<set xpath="/items/item[@name='resourceCoalBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceCoalBundle']/property[@name='Create_item_count']/@value">20000</set>
-
-	<set xpath="/items/item[@name='resourceGunPowderBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceGunPowderBundle']/property[@name='Create_item_count']/@value">20000</set>
-
-	<set xpath="/items/item[@name='resourceLeadBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceLeadBundle']/property[@name='Create_item_count']/@value">20000</set>
-
+	<set xpath="/items/item[@name='resourceCoalBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceGunPowderBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceLeadBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@name='Create_item_count']/@value">20000</set>
-
-	<set xpath="/items/item[@name='resourceOilShaleBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceOilShaleBundle']/property[@name='Create_item_count']/@value">20000</set>
-
-	<set xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']/property[@name='Create_item_count']/@value">20000</set>
-
+	<set xpath="/items/item[@name='resourceLockPickBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceOilShaleBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
+	<set xpath="/items/item[@name='resourcePotassiumNitratePowderBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
 	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@name='Create_item_count']/@value">20000</set>
-
-	<set xpath="/items/item[@name='resourceScrapIronBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceScrapIronBundle']/property[@name='Create_item_count']/@value">20000</set>
-
-	<set xpath="/items/item[@name='resourceWoodBundle']/property[@name='Stacknumber']/@value">10</set>
-	<set xpath="/items/item[@name='resourceWoodBundle']/property[@name='Create_item_count']/@value">20000</set>
+	<set xpath="/items/item[@name='resourceRockSmallBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceScrapIronBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
+	<set xpath="/items/item[@name='resourceWoodBundle']/property[@class='Action0']/property[@name='Create_item_count']/@value">10000</set>
 
 	<!--Thrown Ammo-->
 	<set xpath="/items/item[@name='ammoDartIron']/property[@name='Stacknumber']/@value">1000</set>

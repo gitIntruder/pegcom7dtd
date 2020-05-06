@@ -9,3 +9,59 @@ vehicleUH60accessoriesDesc,items,Part,,,"Parts needed to craft the UH-60."
 vehicleUH60,vehicles,vehicle,,,"UH-60"
 vehicleUH60placeable,vehicles,item,,,"UH-60"
 vehicleUH60placeableDesc,vehicles,item,,,"They can't kill you if they can't hit you!"
+
+vehicleATeamVanChassis,items,Part,,,A-Team Van Chassis.,,,,,
+vehicleATeamVanChassisDesc,items,Part,,,Chassis for the A-Team Van. Grease Monkey level 5 required.,,,,,
+vehicleATeamVanAccessories,items,Part,,,A-Team Van Accessories.,,,,,
+vehicleATeamVanAccessoriesDesc,items,Part,,,Accessories for the A-Team Van.,,,,,
+vehicleATeamVan,vehicles,vehicle,,,The A-Team Van,,,,,
+vehicleATeamVanPlaceable,vehicles,item,,,A-Team Van,,,,,
+vehicleATeamVanPlaceableDesc,vehicles,item,,,Don't touch my van sucka.. If you do I come back and feed you ya socks...,,,,,
+
+vehicleMowerChassis,items,Part,,,George Jones Express Chassis,,,,,
+vehicleMowerChassisDesc,items,Part,,,Chassis for the George Jones Express. Grease Monkey level 5 required.,,,,,
+vehicleMowerAccessories,items,Part,,,George Jones Express Accessories,,,,,
+vehicleMowerAccessoriesDesc,items,Part,,,Accessories for the George Jones Express.,,,,,
+vehicleMower,vehicles,vehicle,,,George Jones Express,,,,,
+vehicleMowerPlaceable,vehicles,item,,,George Jones Express,,,,,
+vehicleMowerPlaceableDesc,vehicles,item,,,It might be the apocolypse but you still need to make time to cut the grass...,,,,,
+
+vehicleKolun,vehicles,vehicle,,,The Kolun,,,,,
+vehicleKolunPlaceable,vehicles,item,,,Kolun,,,,,
+vehicleKolunPlaceableDesc,vehicles,item,,,6x6 Russian Red Star Armored Military Vehicle. This once lost OP vehicle is legendary to the Pegasus Command Guild. Seats 20.,,,,,
+
+vehicleAxelAxle,items,Part,,,Axel Axle,,,,,
+vehicleAxelAxleDesc,items,Part,,,Axle for the Axel. Grease Monkey level 5 required.,,,,,
+vehicleAxelWheel,items,Part,,,Axel Wheel,,,,,
+vehicleAxelWheelDesc,items,Part,,,Wheel for the Axel.,,,,,
+vehicleAxel,vehicles,vehicle,,,The Axel,,,,,
+vehicleAxelPlaceable,vehicles,item,,,Axel,,,,,
+vehicleAxelPlaceableDesc,vehicles,item,,,Disorder: Obsessed with revenge fantasies... violent. Treatment: Note to staff: DO NOT attempt to treat... lost cause.,,,,,
+
+vehicleAlphaChassis,items,Part,,,The Alpha Chassis,,,,,
+vehicleAlphaChassisDesc,items,Part,,,Chassis for the Alpha. Grease Monkey level 5 required.,,,,,
+vehicleAlphaWheel,items,Part,,,Alpha Wheel,,,,,
+vehicleAlphaWheelDesc,items,Part,,,Wheel for the Alpha.,,,,,
+vehicleAlpha,vehicles,vehicle,,,The Alpha,,,,,
+vehicleAlphaPlaceable,vehicles,item,,,Alpha,,,,,
+vehicleAlphaPlaceableDesc,vehicles,item,,,Get out of it's way...,,,,,
+
+vehicleTumbler,vehicles,vehicle,,,The Tumbler,,,,,
+vehicleTumblerPlaceable,vehicles,item,,,Tumbler,,,,,
+vehicleTumblerPlaceableDesc,vehicles,item,,,The Tumbler!,,,,,
+
+vehicleHearse,vehicles,vehicle,,,The Meat Wagon,,,,,
+vehicleHearsePlaceable,vehicles,item,,,Meat Wagon,,,,,
+vehicleHearsePlaceableDesc,vehicles,item,,,The Meat Wagon!,,,,,
+
+vehicleImperial,vehicles,vehicle,,,The Imperial,,,,,
+vehicleImperialPlaceable,vehicles,item,,,Imperial,,,,,
+vehicleImperialPlaceableDesc,vehicles,item,,,The Imperial!,,,,,
+
+vehicleHalfTon,vehicles,vehicle,,,The Half Ton,,,,,
+vehicleHalfTonPlaceable,vehicles,item,,,Half Ton,,,,,
+vehicleHalfTonPlaceableDesc,vehicles,item,,,The Half Ton!,,,,,
+
+vehicleRoadster,vehicles,vehicle,,,Jaguar XK140 Roadster,,,,,
+vehicleRoadsterPlaceable,vehicles,item,,,Jaguar XK140 Roadster,,,,,
+vehicleRoadsterPlaceableDesc,vehicles,item,,,Jaguar XK140 Roadster,,,,,
