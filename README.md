@@ -6,6 +6,7 @@
 - [Backpack Buttons](#backpack-buttons)
 - [Firewood](#firewood)
 - [UH-60 Helicopter](#uh-60-helicopter)
+- [Intruder's Vehicles](#intruders-vehicles)
 - [Tool Sounds](#tool-sounds)
 
 ## Item Stack Increase
@@ -259,6 +260,23 @@
   - /Config/progression.xml
   - /Config/recipes.xml
     - Increased chassis, accessories and placeable crafting time
+  - /Config/sounds.xml
+  - /Config/vehicles.xml
+
+## Intruder's Vehicles
+- <https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Vehicles.png?raw=true>
+- Adds many custom vehicles to the game
+- Version: 1.0
+- Author: Intruder
+- Client Download Required: Yes
+- Assets
+  - /Resources/alpha,aTeamVan,axel,hafton,hearse,imperial,kolun,mower,tumbler...
+  - /UIAtlases/ItemIconAtlas/axel,hafton,hearse,imperial,kolun,mower,tumbler...
+  - /UIAtlases/UIAtlas/axel,hafton,hearse,imperial,kolun,mower,tumbler...
+  - /Config/entityclasses.xml
+  - /Config/Localization.txt
+  - /Config/items.xml
+  - /Config/loot.xml
   - /Config/sounds.xml
   - /Config/vehicles.xml
 
