@@ -265,7 +265,7 @@
 
 ## Intruder's Vehicles
 ![Intruder's Vehicle Lineup Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Vehicles.png?raw=true)
-- Adds many custom vehicles to the game
+- Adds many custom vehicles to the game. <span style="color:red">These are in the server already but not available to craft until the admin team finishes the quest lines for each vehicle.</span>
 - Version: 1.0
 - Author: Intruder
 - Client Download Required: Yes
