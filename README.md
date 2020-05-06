@@ -264,7 +264,7 @@
   - /Config/vehicles.xml
 
 ## Intruder's Vehicles
-- <https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Vehicles.png?raw=true>
+![Intruder's Vehicle Lineup Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Vehicles.png?raw=true)
 - Adds many custom vehicles to the game
 - Version: 1.0
 - Author: Intruder
