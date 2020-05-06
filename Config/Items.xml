@@ -57,6 +57,10 @@
 	<set xpath="/items/item/property[@name='meleeToolAuger']/property[@name='Sound_start']/@value">#@modfolder:Resources/toolSounds.unity3d?auger_fire_start</set>
 	<set xpath="/items/item/property[@name='meleeToolAuger']/property[@name='Sound_repeat']/@value">#@modfolder:Resources/toolSounds.unity3d?auger_fire_lp</set>
 	<set xpath="/items/item/property[@name='meleeToolAuger']/property[@name='Sound_end']/@value">#@modfolder:Resources/toolSounds.unity3d?auger_fire_end</set>
+	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='SoundIdle']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_idle</set>
+	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='Sound_start']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_fire_start</set>
+	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='Sound_repeat']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_fire_lp</set>
+	<set xpath="/items/item/property[@name='meleeToolChainsaw']/property[@name='Sound_end']/@value">#@modfolder:Resources/toolSounds.unity3d?chainsaw_fire_end</set>
 
 	<!--Ammo-->
 	<set xpath="/items/item[@name='ammo44MagnumBulletBall']/property[@name='Stacknumber']/@value">500</set>
