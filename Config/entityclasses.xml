@@ -5,6 +5,72 @@
 	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='BagSize'][@value='45']/@value">60</set>
 	<!--60 Slots - END-->
 
+	<!--Mother's Day Special! - BEGIN-->
+	<!--FEMALE FAT-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieFemaleFat']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='ExperienceGain']/@value">2250</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']/property[@name='ExperienceGain']/@value">3600</set> -->
+
+	<!--ARLENE-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieArlene']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/property[@name='ExperienceGain']/@value">2250</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']/property[@name='ExperienceGain']/@value">3600</set> -->
+
+	<!--LAB-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieLab']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieLabFeral']/property[@name='ExperienceGain']/@value">2250</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieLabRadiated']/property[@name='ExperienceGain']/@value">3600</set>
+	<append xpath="/entity_classes/entity_class[@name='legendaryZombieLab']">
+		<property name="ExperienceGain" value="3600"/>
+	</append> -->
+
+	<!--SCREAMER-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieScreamer']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/property[@name='ExperienceGain']/@value">2250</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/property[@name='ExperienceGain']/@value">3600</set> -->
+
+	<!--DARLENE-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieDarlene']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/property[@name='ExperienceGain']/@value">2250</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieDarleneRadiated']/property[@name='ExperienceGain']/@value">3600</set> -->
+
+	<!--MARLENE-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieMarlene']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/property[@name='ExperienceGain']/@value">2250</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']/property[@name='ExperienceGain']/@value">3600</set> -->
+
+	<!--NURSE-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieNurse']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='ExperienceGain']/@value">2250</set> -->
+
+	<!--CHEERLEADER-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieCheerleader']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieCheerleaderFeral']/property[@name='ExperienceGain']/@value">2250</set>
+	<set xpath="/entity_classes/entity_class[@name='zombieCheerleaderRadiated']/property[@name='ExperienceGain']/@value">3600</set> -->
+
+	<!--STRIPPER-->
+	<!-- <append xpath="/entity_classes/entity_class[@name='zombieStripper']">
+		<property name="ExperienceGain" value="1239"/>
+	</append>
+	<set xpath="/entity_classes/entity_class[@name='zombieStripperFeral']/property[@name='ExperienceGain']/@value">2250</set> -->
+	<!--Mother's Day Special! - END-->
+
 	<append xpath="/entity_classes">
 		<!--UH-60 Helicopter - BEGIN-->
 		<entity_class name="vehicleUH60">
@@ -220,6 +286,5 @@
 			<property name="MapIcon" value="roadsterUIicon"/>
 		</entity_class>
 		<!--Intruder's Vehicles - END-->
-
 	</append>
 </configs>

@@ -18,9 +18,33 @@
   <!--UH-60 Helicopter - END-->
 
   <!--Intruders Vehicles - BEGIN-->
-	<insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
-		<lootcontainer id="222" count="0" size="10,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
-		</lootcontainer>
+  <!--Container Size for all vehicles-->
+  <insertAfter xpath="/lootcontainers/lootcontainer[@id='124']">
+    <lootcontainer id="222" count="0" size="10,9" sound_open="UseActions/open_shopping_basket" open_time="0" sound_close="UseActions/close_shopping_basket" loot_quality_template="qualBaseTemplate">
+    </lootcontainer>
+  </insertAfter>
   <!--Intruders Vehicles - END-->
-	</insertAfter>
+
+  <!--Intruders Vehicles - BEGIN-->
+  <!--Schematic Loot Group-->
+  <append xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesRare']">
+    <item name="vehicleATeamVanChassisSchematic"/>
+    <item name="vehicleATeamVanAccessoriesSchematic"/>
+    <item name="vehicleMowerChassisSchematic"/>
+    <item name="vehicleMowerAccessoriesSchematic"/>
+    <item name="vehicleKolunChassisSchematic"/>
+    <item name="vehicleKolunAccessoriesSchematic"/>
+    <item name="vehicleAxelWheelSchematic"/>
+    <item name="vehicleAxelAxleSchematic"/>
+    <item name="vehicleAlphaWheelSchematic"/>
+    <item name="vehicleAlphaChassisSchematic"/>
+    <item name="vehicleAlphaAccessoriesSchematic"/>
+    <item name="vehicleTumblerChassisSchematic"/>
+    <item name="vehicleTumblerAccessoriesSchematic"/>
+    <item name="vehicleHearseChassisSchematic"/>
+    <item name="vehicleHearseAccessoriesSchematic"/>
+    <item name="vehicleRoadsterChassisSchematic"/>
+    <item name="vehicleRoadsterAccessoriesSchematic"/>
+  </append>
+  <!--Intruders Vehicles - END-->
 </configs>
