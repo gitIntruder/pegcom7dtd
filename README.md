@@ -8,6 +8,7 @@
 - [UH-60 Helicopter](#uh-60-helicopter)
 - [Intruder's Vehicles](#intruders-vehicles)
 - [Tool Sounds](#tool-sounds)
+- [Stallionsden Nuclear Power](#stallionsden-nuclear-power)
 
 ## Item Stack Increase
 - The stack size has been updated for the following Items.
