@@ -1,7 +1,7 @@
 <configs>
   <append xpath="/recipes">
     <!--War3zuk Fat Soaked Log Bundle - BEGIN-->
-    <recipe name="itemFirewood" craft_time = "15" count="10">
+    <recipe name="itemFirewood" craft_time = "15" count="50">
       <ingredient name="drinkJarGrainAlcohol" count="2" />
       <ingredient name="resourceWood" count="100"/>
       <ingredient name="resourceAnimalFat" count="2" />
@@ -34,7 +34,6 @@
     </recipe>
     <!--UH-60 Helicopter - END-->
 
-    <!--Intruder's Vehicles - BEGIN-->
     <!--A-TEAM VAN-->
     <recipe name="vehicleATeamVanChassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
       <ingredient name="resourceElectricParts" count="20"/>
@@ -54,7 +53,6 @@
       <ingredient name="vehicleWheels" count="4"/>
       <ingredient name="vehicleATeamVanAccessories" count="1"/>
       <ingredient name="vehicleATeamVanChassis" count="1"/>
-      <ingredient name="resourceOil" count="50"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
@@ -78,7 +76,6 @@
       <ingredient name="vehicleWheels" count="4"/>
       <ingredient name="vehicleMowerAccessories" count="1"/>
       <ingredient name="vehicleMowerChassis" count="1"/>
-      <ingredient name="resourceOil" count="20"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
@@ -102,7 +99,6 @@
       <ingredient name="vehicleWheels" count="4"/>
       <ingredient name="vehicleKolunAccessories" count="1"/>
       <ingredient name="vehicleKolunChassis" count="1"/>
-      <ingredient name="resourceOil" count="100"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
@@ -120,15 +116,12 @@
       <ingredient name="resourceMechanicalParts" count="300"/>
       <ingredient name="resourceDuctTape" count="30"/>
       <ingredient name="resourceLeather" count="20"/>
-      <ingredient name="resourceElectricParts" count="100"/>
       <ingredient name="resourceMetalPipe" count="50"/>
-      <ingredient name="resourceOil" count="10"/>
     </recipe>
     <recipe name="vehicleAxelPlaceable" count="1" craft_area="workbench" craft_time="600" tags="workbenchCrafting">
       <ingredient name="vehicleAxelWheel" count="2"/>
       <ingredient name="resourceHeadlight" count="5"/>
       <ingredient name="vehicleAxelAxle" count="1"/>
-      <ingredient name="resourceOil" count="20"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
@@ -158,7 +151,6 @@
       <ingredient name="vehicleAlphaWheel" count="4"/>
       <ingredient name="resourceHeadlight" count="10"/>
       <ingredient name="vehicleAlphaChassis" count="1"/>
-      <ingredient name="resourceOil" count="70"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
@@ -182,7 +174,6 @@
       <ingredient name="vehicleWheels" count="4"/>
       <ingredient name="vehicleTumblerAccessories" count="1"/>
       <ingredient name="vehicleTumblerChassis" count="1"/>
-      <ingredient name="resourceOil" count="50"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
@@ -206,7 +197,6 @@
       <ingredient name="vehicleWheels" count="4"/>
       <ingredient name="vehicleHearseAccessories" count="1"/>
       <ingredient name="vehicleHearseChassis" count="1"/>
-      <ingredient name="resourceOil" count="50"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
@@ -230,20 +220,106 @@
       <ingredient name="vehicleWheels" count="4"/>
       <ingredient name="vehicleRoadsterAccessories" count="1"/>
       <ingredient name="vehicleRoadsterChassis" count="1"/>
-      <ingredient name="resourceOil" count="50"/>
       <ingredient name="smallEngine" count="1"/>
       <ingredient name="carBattery" count="1"/>
     </recipe>
-    <!--Intruder's Vehicles - END-->
-  </append>
 
-  <!--Bundle Recipe Update-->
-  <set xpath="/recipes/recipe[@name='resourceCoalBundle']/ingredient[@name='resourceCoal']/@count">10000</set>
-  <set xpath="/recipes/recipe[@name='resourceGunPowderBundle']/ingredient[@name='resourcePotassiumNitratePowder']/@count">10000</set>
-  <set xpath="/recipes/recipe[@name='resourceLeadBundle']/ingredient[@name='resourceScrapLead']/@count">10000</set>
-  <set xpath="/recipes/recipe[@name='resourceOilShaleBundle']/ingredient[@name='resourceOilShale']/@count">10000</set>
-  <set xpath="/recipes/recipe[@name='resourcePotassiumNitratePowderBundle']/ingredient[@name='resourcePotassiumNitratePowder']/@count">10000</set>
-  <set xpath="/recipes/recipe[@name='resourceRockSmallBundle']/ingredient[@name='resourceRockSmall']/@count">10000</set>
-  <set xpath="/recipes/recipe[@name='resourceScrapIronBundle']/ingredient[@name='resourceScrapIron']/@count">10000</set>
-  <set xpath="/recipes/recipe[@name='resourceWoodBundle']/ingredient[@name='resourceWood']/@count">10000</set>
+    <!--F100-->
+    <recipe name="vehicleF100Chassis" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="resourceElectricParts" count="20"/>
+      <ingredient name="resourceForgedSteel" count="400"/>
+      <ingredient name="resourceMechanicalParts" count="50"/>
+      <ingredient name="resourceDuctTape" count="40"/>
+      <ingredient name="resourceMetalPipe" count="50"/>
+    </recipe>
+    <recipe name="vehicleF100Accessories" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="resourceForgedSteel" count="50"/>
+      <ingredient name="resourceMechanicalParts" count="10"/>
+      <ingredient name="resourceLeather" count="50"/>
+      <ingredient name="resourceElectricParts" count="40"/>
+      <ingredient name="resourceHeadlight" count="12"/>
+    </recipe>
+    <recipe name="vehicleF100Placeable" count="1" craft_area="workbench" craft_time="600" tags="workbenchCrafting">
+      <ingredient name="vehicleWheels" count="4"/>
+      <ingredient name="vehicleF100Accessories" count="1"/>
+      <ingredient name="vehicleF100Chassis" count="1"/>
+      <ingredient name="smallEngine" count="1"/>
+      <ingredient name="carBattery" count="1"/>
+    </recipe>
+
+    <!--Stallionsdens Nuclear Power - BEGIN-->
+    <recipe name="nuclearGeneratorBank" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearGeneratorSchematic">
+      <ingredient name="resourceForgedSteel" count="100"/>
+      <ingredient name="resourcePotassiumNitratePowder" count="200"/>
+      <ingredient name="generatorbank" count="15"/>
+      <ingredient name="nuclearPoweredEngine" count="10"/>
+      <ingredient name="resourceElectricParts" count="6"/>
+    </recipe>
+    <recipe name="nuclearPoweredEngine" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearGeneratorSchematic">
+      <ingredient name="resourceForgedSteel" count="12"/>
+      <ingredient name="resourceOil" count="50"/>
+      <ingredient name="smallEngine" count="5"/>
+      <ingredient name="resourceScrapBrass" count="12"/>
+      <ingredient name="resourceGoldNugget" count="6"/>
+    </recipe>
+    <recipe name="nuclearPoweredEngine" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearGeneratorSchematic">
+      <ingredient name="nuclearPoweredEngine" count="1"/>
+      <ingredient name="resourceAcid" count="15"/>
+      <ingredient name="resourceElectricParts" count="3"/>
+      <ingredient name="resourceMechanicalParts" count="7"/>
+    </recipe>
+    <recipe name="nuclearBatteryBank" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearBatterySchematic">
+      <ingredient name="resourceForgedIron" count="100"/>
+      <ingredient name="resourceRawDiamond" count="12"/>
+      <ingredient name="batterybank" count="5"/>
+      <ingredient name="nuclearPoweredBattery" count="5"/>
+      <ingredient name="resourceElectricParts" count="3"/>
+    </recipe>
+    <recipe name="nuclearPoweredBattery" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearBatterySchematic">
+      <ingredient name="resourceForgedIron" count="50"/>
+      <ingredient name="resourceGoldNugget" count="8"/>
+      <ingredient name="resourceDuctTape" count="5"/>
+      <ingredient name="resourceScrapBrass" count="12"/>
+      <ingredient name="carBattery" count="3"/>
+    </recipe>
+    <recipe name="nuclearPoweredBattery" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearBatterySchematic">
+      <ingredient name="nuclearPoweredBattery" count="1"/>
+      <ingredient name="resourceFertilizer" count="8"/>
+      <ingredient name="resourceElectricParts" count="1"/>
+      <ingredient name="resourceMechanicalParts" count="3"/>
+    </recipe>
+    <recipe name="nuclearSolarBank" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearSolarSchematic">
+      <ingredient name="resourceForgedIron" count="100"/>
+      <ingredient name="resourceRawDiamond" count="12"/>
+      <ingredient name="solarbank" count="5"/>
+      <ingredient name="nuclearSolarCell" count="5"/>
+      <ingredient name="resourceMechanicalParts" count="3"/>
+    </recipe>
+    <recipe name="nuclearSolarCell" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearSolarSchematic">
+      <ingredient name="resourceForgedIron" count="50"/>
+      <ingredient name="resourceGoldNugget" count="8"/>
+      <ingredient name="solarCell" count="5"/>
+      <ingredient name="resourceScrapBrass" count="12"/>
+      <ingredient name="resourceDuctTape" count="3"/>
+    </recipe>
+    <recipe name="nuclearSolarCell" count="1" craft_area="chemistryStation" tags="learnable,perkYeahScience,nuclearSolarSchematic">
+      <ingredient name="nuclearSolarCell" count="1"/>
+      <ingredient name="resourceAcid" count="10"/>
+      <ingredient name="resourceElectricParts" count="1"/>
+      <ingredient name="resourceMechanicalParts" count="3"/>
+    </recipe>
+    <recipe name="carBattery" count="1">
+      <ingredient name="carBattery" count="1"/>
+      <ingredient name="resourceAcid" count="1"/>
+    </recipe>
+    <recipe name="smallEngine" count="1">
+      <ingredient name="smallEngine" count="1"/>
+      <ingredient name="resourceAcid" count="1"/>
+    </recipe>
+    <recipe name="solarCell" count="1">
+      <ingredient name="solarCell" count="1"/>
+      <ingredient name="resourceAcid" count="1"/>
+    </recipe>
+    <!--Stallionsdens Nuclear Power - END-->
+  </append>
 </configs>

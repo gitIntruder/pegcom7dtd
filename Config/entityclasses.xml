@@ -239,10 +239,10 @@
 			<property name="LootListAlive" value="222"/>
 			<property name="IsEnemyEntity" value="false"/>
 			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="20"/>
-			<property name="Explosion.RadiusEntities" value="20"/>
-			<property name="Explosion.BlockDamage" value="5000"/>
-			<property name="Explosion.EntityDamage" value="5000"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
 			<property name="RotateToGround" value="true"/>
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="imperialUIicon"/>
@@ -258,10 +258,10 @@
 			<property name="LootListAlive" value="222"/>
 			<property name="IsEnemyEntity" value="false"/>
 			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="20"/>
-			<property name="Explosion.RadiusEntities" value="20"/>
-			<property name="Explosion.BlockDamage" value="5000"/>
-			<property name="Explosion.EntityDamage" value="5000"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="5"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
 			<property name="RotateToGround" value="true"/>
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="halfTonUIicon"/>
@@ -277,13 +277,32 @@
 			<property name="LootListAlive" value="222"/>
 			<property name="IsEnemyEntity" value="false"/>
 			<property name="Explosion.ParticleIndex" value="6"/>
-			<property name="Explosion.RadiusBlocks" value="20"/>
-			<property name="Explosion.RadiusEntities" value="20"/>
-			<property name="Explosion.BlockDamage" value="5000"/>
-			<property name="Explosion.EntityDamage" value="5000"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="250"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
 			<property name="RotateToGround" value="true"/>
 			<property name="Faction" value="none"/>
 			<property name="MapIcon" value="roadsterUIicon"/>
+		</entity_class>
+		<entity_class name="vehicleF100">
+			<property name="Tags" value="vehicle"/>
+			<property name="Class" value="EntityVJeep"/>
+			<property name="Parent" value="Cars"/>
+			<property name="Prefab" value="#@modfolder:Resources/f100.unity3d?f100Prefab.prefab"/>
+			<property name="ModelType" value="Standard"/>
+			<property name="SurfaceCategory" value="metal"/>
+			<property name="IgnoreTrigger" value="true"/>
+			<property name="LootListAlive" value="222"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="Explosion.ParticleIndex" value="6"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="250"/>
+			<property name="Explosion.BlockDamage" value="100"/>
+			<property name="Explosion.EntityDamage" value="100"/>
+			<property name="RotateToGround" value="true"/>
+			<property name="Faction" value="none"/>
+			<property name="MapIcon" value="f100UIicon"/>
 		</entity_class>
 		<!--Intruder's Vehicles - END-->
 	</append>

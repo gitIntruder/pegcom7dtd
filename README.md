@@ -265,7 +265,7 @@
 
 ## Intruder's Vehicles
 ![Intruder's Vehicle Lineup Screenshot](https://github.com/gitIntruder/pegcom7dtd/blob/master/Screenshots/Vehicles.png?raw=true)
-- Adds many custom vehicles to the game. <span style="color:red">These are in the server already but not available to craft until the admin team finishes the quest lines for each vehicle.</span>
+- Adds many custom vehicles to the game.
 - Version: 1.0
 - Author: Intruder
 - Client Download Required: Yes
@@ -287,3 +287,23 @@
   - /Resources/toolSounds.unity3d
   - /Config/items.xml
   - /Config/sounds.xml
+
+## Stallionsden Nuclear Power
+- <https://7daystodiemods.com/nuclear-power-mod/>
+
+- With the Nuclear Powered Generator you get to lift even heavier Engines, Thats great for your back.
+- Lug dangerous toxics nuclear batteries now instead of the safer acid version into your Nuclear Battery Bank.
+- And well the sun just got a whole lot brighter in answering your prayers with the you beaut Nuclear solar Bank.
+- Your nuclear batteries/engine/solarcells run out. Well then easily recharge them.
+- Vanilla Car Batteries, Solar Cells and Small Engines can now also be recharged/repaired, If nuclear scares you..
+- Version: Update for A19 (B163)
+- Author: Stallionsden
+- Client Download Required: Yes
+- Assets
+  - /UIAtlases/ItemIconAtlas/nuclear...
+  - /Config/blocks.xml
+  - /Config/items.xml
+  - /Config/Localization.txt
+  - /Config/progression.xml
+  - /Config/recipes.xml
+  - /Config/traders.xml
